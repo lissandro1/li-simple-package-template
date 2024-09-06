@@ -1,27 +1,24 @@
-# package_name
+# temperatua
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Descrição:
+**temperatura** é um simples conversor de temperatura
+Celsius-Fahrenheit (e vice-versa) escrito em Python.
 
-## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+## Instalação
 
 ```bash
-pip install package_name
+pip install temperatura
 ```
 
-## Usage
+# Funções
 
-```python
-from package_name import file1_name
-file1_name.my_function()
-```
+* `celsius_para_fahrenheit(temp_em_celsius)` - Recebe valor float em Celsius e
+retorna valor float em Fahrenheit
+
+* `fahrenheit_para_celsius(temp_em_fahrenheit)` - Recebe valor float em Fahrenheit
+e retorna valor em Celsius
+
 
 ## Author
-My_name
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Lissandro 

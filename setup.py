@@ -1,21 +1,14 @@
-from setuptools import setup, find_packages
-
-with open("README.md", "r") as f:
-    page_description = f.read()
-
-with open("requirements.txt") as f:
-    requirements = f.read().splitlines()
+from setuptools import setup
 
 setup(
-    name="package_name",
-    version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
-    long_description=page_description,
-    long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
-    packages=find_packages(),
-    install_requires=requirements,
-    python_requires='>=3.8',
+    name = 'temperatura',
+    version = '2.0.1',
+    author = 'Lissandro',
+    packages = ['temperatura'],
+    description = 'Um simples conversor de temperatura (Celsius - Fahrenheit)',
+    long_description = 'Um simples conversor de temperatura, com funções para '
+                        + 'conversão de Celsius para Fahrenheit e vice-versa, '
+                        + 'usado para um aprendizado na criação de pacotes',
+    url="https://github.com/lissandro1/li-simple-package-template",
+    license = 'MIT'
 )
